@@ -10,7 +10,7 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cors({
-    origin:"https://inventory-front-end.vercel.app",
+    origin:"https://inventory-front-end-vgys.vercel.app",
     methods:["GET","POST","PUT","DELETE"]  
  }))
 app.use(authetication);
